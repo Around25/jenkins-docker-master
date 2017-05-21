@@ -1,8 +1,8 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Cosmin Harangus <cosmin@around25.com>
 
 EXPOSE 8080
-ENV DOCKER_COMPOSE_VERSION 1.9.0
+ENV DOCKER_COMPOSE_VERSION 1.13.0
 ENV JENKINS_HOME /var/lib/jenkins
 
 # Let's start with some basic stuff.
